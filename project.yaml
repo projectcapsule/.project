@@ -1,4 +1,5 @@
 # .project metadata for Capsule
+
 # Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
 
 # TODO: Add package_managers if distributed via registries
@@ -8,8 +9,8 @@ slug: "capsule"
 name: "Capsule"
 description: "Capsule implements a multi-tenant and policy-based environment in your Kubernetes cluster. It is designed as a micro-services-based ecosystem with the minimalist approach, leveraging only on upstream Kubernetes."
 type: "project"
-project_lead: "bsctl" # TODO: AUTO-DETECTED — please verify
-slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
+project_lead: "oliverbaehler"
+slack_channels:
   - name: "#capsule"
     link: "https://kubernetes.slack.com/"
     primary: true
@@ -21,21 +22,26 @@ maturity_log:
 
 repositories:
   - "https://github.com/projectcapsule/capsule"
+  - "https://github.com/projectcapsule/capsule-proxy"
+  - "https://github.com/projectcapsule/headlamp-plugin"
+  - "https://github.com/projectcapsule/website"
 
-website: "https://capsule.clastix.io"
+website: "https://projectcapsule.dev"
 
 artwork: "https://landscape.cncf.io/logos/capsule.svg"
 
 adopters:
   path: "https://github.com/projectcapsule/capsule/blob/main/ADOPTERS.md"
 
-
-# TODO: Add package manager identifiers if your project is distributed via registries
-# package_managers:
-#   docker: "projectcapsule/capsule"
+package_managers:
+  docker:
+    - "ghcr.io/projectcapsule/capsule"
+    - "ghcr.io/projectcapsule/capsule-proxy"
+    - "ghcr.io/projectcapsule/headlamp-plugin"
 
 social:
   twitter: "https://twitter.com/clastixio"
+  linkedin: "https://www.linkedin.com/company/project-capsule/"
 
 security:
   policy:
