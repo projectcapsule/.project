@@ -7,12 +7,17 @@ maintainers:
   - project_id: "capsule"
     org: "projectcapsule"
     teams:
-      - name: "project-maintainers"
+      - name: "core-maintainers"
         members:
-          - bsctl
           - prometherion
-          - MaxFedotov
-          - maxgio92
           - oliverbaehler
           - Svarrogh1337
+          - bakito
+      - name: "documentation-maintainers"
+        members:
           - sandert-k8s
+      - name: "passive-maintainers"
+        members:
+          - bsctl
+          - MaxFedotov
+          - maxgio92
