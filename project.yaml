@@ -28,7 +28,7 @@ repositories:
 
 website: "https://projectcapsule.dev"
 
-artwork: "https://landscape.cncf.io/logos/capsule.svg"
+artwork: "https://github.com/cncf/artwork/tree/main/projects/capsule"
 
 adopters:
   path: "https://github.com/projectcapsule/capsule/blob/main/ADOPTERS.md"
